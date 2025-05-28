@@ -37,6 +37,7 @@ public class Database {
             System.out.println("succes !!!");
         } catch (SQLException e) {
             System.out.println("Erreur création table : " + e.getMessage());
+            System.out.println("Un nouveau message avec pull");
         }
     }
 }
