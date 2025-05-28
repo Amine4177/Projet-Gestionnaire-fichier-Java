@@ -34,6 +34,7 @@ public class Database {
              Statement stmt = conn.createStatement()) {
             stmt.execute(sql);
             System.out.println("Table créée !");
+            System.out.println("succes !!!");
         } catch (SQLException e) {
             System.out.println("Erreur création table : " + e.getMessage());
         }
